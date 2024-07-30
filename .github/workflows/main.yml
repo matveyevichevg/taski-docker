@@ -179,6 +179,7 @@ jobs:
         # Параметр script передаёт в action appleboy/ssh-action команды,
         # которые нужно выполнить на сервере, 
         # с которым установлено соединение
+        # затест с миграциями
         script: |
           cd taski            
           sudo docker compose -f docker-compose.production.yml pull            
